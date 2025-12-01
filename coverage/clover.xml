@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1764424699406" clover="3.2.0">
-  <project timestamp="1764424699406" name="All files">
-    <metrics statements="16" coveredstatements="16" conditionals="25" coveredconditionals="25" methods="3" coveredmethods="3" elements="44" coveredelements="44" complexity="0" loc="16" ncloc="16" packages="1" files="1" classes="1"/>
-    <file name="examples.js" path="/Volumes/hd_externo/Projetos/Personal/basic/unit-testing/src/examples.js">
-      <metrics statements="16" coveredstatements="16" conditionals="25" coveredconditionals="25" methods="3" coveredmethods="3"/>
-      <line num="2" count="6" type="cond" truecount="2" falsecount="0"/>
-      <line num="3" count="4" type="stmt"/>
-      <line num="7" count="33" type="cond" truecount="2" falsecount="0"/>
-      <line num="8" count="30" type="cond" truecount="2" falsecount="0"/>
-      <line num="9" count="29" type="cond" truecount="2" falsecount="0"/>
-      <line num="10" count="24" type="stmt"/>
-      <line num="11" count="30" type="cond" truecount="2" falsecount="0"/>
-      <line num="13" count="14" type="stmt"/>
-      <line num="17" count="18" type="cond" truecount="2" falsecount="0"/>
-      <line num="18" count="17" type="cond" truecount="2" falsecount="0"/>
-      <line num="19" count="15" type="cond" truecount="2" falsecount="0"/>
-      <line num="20" count="13" type="cond" truecount="2" falsecount="0"/>
-      <line num="21" count="11" type="cond" truecount="2" falsecount="0"/>
-      <line num="22" count="6" type="cond" truecount="2" falsecount="0"/>
-      <line num="23" count="4" type="cond" truecount="2" falsecount="0"/>
-      <line num="24" count="2" type="stmt"/>
+<coverage generated="1764617344918" clover="3.2.0">
+  <project timestamp="1764617344918" name="All files">
+    <metrics statements="8" coveredstatements="8" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1" elements="17" coveredelements="17" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
+    <file name="createCards.js" path="/Volumes/hd_externo/Projetos/Personal/basic/unit-testing/src/createCards.js">
+      <metrics statements="8" coveredstatements="8" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
+      <line num="2" count="8" type="cond" truecount="4" falsecount="0"/>
+      <line num="3" count="6" type="cond" truecount="4" falsecount="0"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="5" count="4" type="stmt"/>
+      <line num="6" count="4" type="stmt"/>
+      <line num="7" count="16" type="stmt"/>
+      <line num="8" count="208" type="stmt"/>
+      <line num="11" count="4" type="stmt"/>
     </file>
   </project>
 </coverage>
