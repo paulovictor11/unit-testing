@@ -1,17 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1764617344918" clover="3.2.0">
-  <project timestamp="1764617344918" name="All files">
-    <metrics statements="8" coveredstatements="8" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1" elements="17" coveredelements="17" complexity="0" loc="8" ncloc="8" packages="1" files="1" classes="1"/>
+<coverage generated="1764791746042" clover="3.2.0">
+  <project timestamp="1764791746042" name="All files">
+    <metrics statements="39" coveredstatements="37" conditionals="44" coveredconditionals="43" methods="7" coveredmethods="7" elements="90" coveredelements="87" complexity="0" loc="39" ncloc="39" packages="1" files="3" classes="3"/>
     <file name="createCards.js" path="/Volumes/hd_externo/Projetos/Personal/basic/unit-testing/src/createCards.js">
-      <metrics statements="8" coveredstatements="8" conditionals="8" coveredconditionals="8" methods="1" coveredmethods="1"/>
-      <line num="2" count="8" type="cond" truecount="4" falsecount="0"/>
-      <line num="3" count="6" type="cond" truecount="4" falsecount="0"/>
+      <metrics statements="10" coveredstatements="10" conditionals="12" coveredconditionals="12" methods="1" coveredmethods="1"/>
+      <line num="2" count="10" type="cond" truecount="4" falsecount="0"/>
+      <line num="3" count="8" type="cond" truecount="4" falsecount="0"/>
       <line num="4" count="2" type="stmt"/>
-      <line num="5" count="4" type="stmt"/>
-      <line num="6" count="4" type="stmt"/>
-      <line num="7" count="16" type="stmt"/>
-      <line num="8" count="208" type="stmt"/>
-      <line num="11" count="4" type="stmt"/>
+      <line num="5" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="6" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="4" type="stmt"/>
+      <line num="10" count="4" type="stmt"/>
+      <line num="11" count="16" type="stmt"/>
+      <line num="12" count="208" type="stmt"/>
+      <line num="16" count="4" type="stmt"/>
+    </file>
+    <file name="examples.js" path="/Volumes/hd_externo/Projetos/Personal/basic/unit-testing/src/examples.js">
+      <metrics statements="16" coveredstatements="16" conditionals="25" coveredconditionals="25" methods="3" coveredmethods="3"/>
+      <line num="2" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="3" count="4" type="stmt"/>
+      <line num="7" count="33" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="30" type="cond" truecount="2" falsecount="0"/>
+      <line num="9" count="29" type="cond" truecount="2" falsecount="0"/>
+      <line num="10" count="24" type="stmt"/>
+      <line num="11" count="30" type="cond" truecount="2" falsecount="0"/>
+      <line num="13" count="14" type="stmt"/>
+      <line num="17" count="18" type="cond" truecount="2" falsecount="0"/>
+      <line num="18" count="17" type="cond" truecount="2" falsecount="0"/>
+      <line num="19" count="15" type="cond" truecount="2" falsecount="0"/>
+      <line num="20" count="13" type="cond" truecount="2" falsecount="0"/>
+      <line num="21" count="11" type="cond" truecount="2" falsecount="0"/>
+      <line num="22" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="23" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="24" count="2" type="stmt"/>
+    </file>
+    <file name="loadDeck.js" path="/Volumes/hd_externo/Projetos/Personal/basic/unit-testing/src/loadDeck.js">
+      <metrics statements="13" coveredstatements="11" conditionals="7" coveredconditionals="6" methods="3" coveredmethods="3"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="13" count="4" type="stmt"/>
+      <line num="14" count="4" type="stmt"/>
+      <line num="15" count="4" type="stmt"/>
+      <line num="16" count="4" type="cond" truecount="2" falsecount="0"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="18" count="1" type="stmt"/>
+      <line num="21" count="3" type="stmt"/>
+      <line num="22" count="3" type="stmt"/>
+      <line num="24" count="3" type="cond" truecount="3" falsecount="1"/>
+      <line num="25" count="0" type="stmt"/>
+      <line num="26" count="0" type="stmt"/>
+      <line num="29" count="3" type="stmt"/>
     </file>
   </project>
 </coverage>
