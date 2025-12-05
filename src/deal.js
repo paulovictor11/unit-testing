@@ -1,3 +1,5 @@
+import { logDealRound } from "./helpers/loggers";
+
 export function deal(cards, handSize, numberOfPlayers) {
     const hands = Array.from({ length: numberOfPlayers }, () => []);
 
@@ -6,6 +8,8 @@ export function deal(cards, handSize, numberOfPlayers) {
             if (cards.length === 0) throw new Error("Not enough cards to deal");
             hands[playerIndex].push(cards.shift());
         }
+
+        logDealRound(hands, i + 1);
     }
 
     return hands;
