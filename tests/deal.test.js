@@ -1,7 +1,8 @@
-import { describe, it, expect, vi } from "vitest";
+import { describe, it, expect, vi, beforeEach } from "vitest";
 import { createCards } from "../src/createCards";
 import { deal } from "../src/deal";
 import { logDealRound } from "../src/helpers/loggers";
+import { afterEach } from "vitest";
 
 vi.mock("../src/helpers/loggers", async () => {
     const originals = await vi.importActual("../src/helpers/loggers");
@@ -17,6 +18,14 @@ vi.mock("../src/helpers/loggers", async () => {
 describe("deal", () => {
     const suits = ["Hearts", "Diamonds", "Clubs", "Spades"];
     const values = ["Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King"];
+
+    beforeEach(() => {
+        logDealRound.mockClear();
+    });
+
+    // afterEach(() => {
+
+    // })
 
     it("should deals the correct number of hands", () => {
         const cards = createCards({ suits, values });
@@ -36,7 +45,6 @@ describe("deal", () => {
 
     it("should calls the logger a correct number of times", () => {
         const cards = createCards({ suits, values });
-        logDealRound.mockClear();
         deal(cards, 5, 3);
         expect(logDealRound).toHaveBeenCalledTimes(5);
         expect(logDealRound).toHaveReturnedWith(true);
